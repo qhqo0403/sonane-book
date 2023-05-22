@@ -1,9 +1,9 @@
 ---
-name: FEATURE REQUEST
+name: "\U0001F387FEATURE REQUEST"
 about: Register issue
 title: "[FEATURE]"
-labels: enhancement
-assignees: qhqo0403
+labels: ''
+assignees: ''
 
 ---
 
