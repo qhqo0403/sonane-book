@@ -16,5 +16,5 @@ assignees: ''
 <!-- 상세 내용 -->
 
 ### ✅To do
-[ ] to do 1
-[ ] to do 2
+- [ ] to do 1
+- [ ] to do 2
