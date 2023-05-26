@@ -1,2 +1,11 @@
-branchName: tiny
+branchName: short
 autoCloseIssue: true
+branches:
+  - label: 'Type: Feature/Function'
+    prefix: '[Feat]Function/'
+  - label: 'Type: Feature/Documentation'
+    prefix: '[Feat]Documentation/'
+  - label: 'Type: Bugfix/UI'
+    prefix: '[Bug]UI/'
+  - label: 'Type: Bugfix/Function'
+    prefix: '[Bug]Function/'
