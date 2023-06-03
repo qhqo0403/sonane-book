@@ -1,7 +1,26 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import HomePage from "./pages/Home";
+import ErrorPage from "./pages/Error";
+import SearchPage from "./pages/Search";
+import SearchResultPage from "./pages/SearchResult";
+import ChallengePage from "./pages/Challenge";
+import AuthenticationPage from "./pages/Authentication";
+import FindPwPage from "./pages/FindPw";
+import MyPage from "./pages/My";
+import AccountPage from "./pages/Account";
+import RecentReadsPage from "./pages/RecentReads";
+import ToBeReadsPage from "./pages/ToBeReads";
+import ChallengeRoot from "./pages/MyChallengeRoot";
+import MyChallengePage from "./pages/MyChallenge";
+import NewChallengePage from "./pages/NewChallenge";
+import MyChallengeDetailPage from "./pages/MyChallengeDetail";
+import ReviewPage from "./pages/Review";
+import NewReviewPage from "./pages/NewReview";
+import MemoPage from "./pages/Memo";
+
 
 const router = createBrowserRouter([
-  {path: '/', element: <Homepage />, errorElement: <ErrorPage />, children: [
+  {path: '/', element: <HomePage />, errorElement: <ErrorPage />, children: [
     {path: 'search', element: <SearchPage />},
     {path: 'search/result', element: <SearchResultPage />},
     {path: 'challenge', element: <ChallengePage /> },
