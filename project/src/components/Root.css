@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  margin: 10px 20px;
+}
+.tnb > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.tnb > ul > li {
+  margin-right: 10px;
+}
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  margin-right: 10px;
+}
