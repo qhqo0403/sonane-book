@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 import "./Root.css";
 
-const MainNavigation = () => {
+const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
@@ -50,4 +50,4 @@ const MainNavigation = () => {
   );
 };
 
-export default MainNavigation;
+export default Header;
