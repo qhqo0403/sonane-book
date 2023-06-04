@@ -1,9 +1,5 @@
-import { Outlet } from "react-router-dom";
-
 const Homepage = () => {
-  return (
-    <Outlet />
-  )
-}
+  return <div>메인페이지입니다~</div>;
+};
 
 export default Homepage;
