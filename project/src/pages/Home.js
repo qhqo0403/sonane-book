@@ -6,6 +6,5 @@ const Homepage = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return <>{!isLoggedIn ? <Landing /> : <HomeContent />}</>;
-};
 
 export default Homepage;
