@@ -1,5 +1,10 @@
+import { useState } from "react";
+import Landing from "../components/Landing";
+import HomeContent from "../components/HomeContent";
+
 const Homepage = () => {
-  return <div>메인페이지입니다~</div>;
-};
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  return <>{!isLoggedIn ? <Landing /> : <HomeContent />}</>;
 
 export default Homepage;
