@@ -1,5 +1,9 @@
-const ChallengeRoot = () => {
-  return <div>챌린지 루트 페이지</div>;
-};
+import { Outlet } from "react-router-dom";
 
-export default ChallengeRoot;
+const MyChallengeRoot = () => {
+  return (
+    <Outlet />
+  )
+}
+
+export default MyChallengeRoot;
