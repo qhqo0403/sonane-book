@@ -8,9 +8,7 @@ const TOBEREADBOOK = [
 
 const ToBeReadsPage = () => {
   return (
-    <>
-      <TobeReadBooks bookList={TOBEREADBOOK} />
-    </>
+    <TobeReadBooks bookList={TOBEREADBOOK} />
   )
 };
 
