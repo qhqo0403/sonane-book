@@ -1,5 +1,12 @@
+import NewReviewForm from "../components/NewReviewForm";
+
 const NewReviewPage = () => {
-  return <div>독후감 등록 페이지</div>;
-};
+  return (
+    <>
+      <p>독후감 등록 페이지</p>
+      <NewReviewForm />
+    </>
+  )
+}
 
 export default NewReviewPage;
