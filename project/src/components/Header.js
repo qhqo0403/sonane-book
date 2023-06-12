@@ -11,10 +11,10 @@ const Header = () => {
           {!isLoggedIn ? (
             <>
               <li className="mr-3">
-                <NavLink to="auth">로그인</NavLink>
+                <NavLink to="signin">로그인</NavLink>
               </li>
               <li>
-                <NavLink to="auth">회원가입</NavLink>
+                <NavLink to="signup">회원가입</NavLink>
               </li>
             </>
           ) : (

@@ -10,7 +10,7 @@ const Landing = () => {
         <button
           type="button"
           className="block mx-auto w-40 h-10 border rounded-xl border-teal-700"
-          onClick={() => navigate("auth")}
+          onClick={() => navigate("signin")}
         >
           시작하기
         </button>

@@ -1,0 +1,7 @@
+.peer:invalid[focused="true"] ~ .errorMessage {
+  display: block;
+}
+
+.errorMessage {
+  display: none;
+}

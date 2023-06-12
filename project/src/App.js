@@ -4,7 +4,8 @@ import ErrorPage from "./pages/Error";
 import SearchPage from "./pages/Search";
 import SearchResultPage from "./pages/SearchResult";
 import ChallengePage from "./pages/Challenge";
-import AuthenticationPage from "./pages/Authentication";
+import SignInPage from "./pages/SignIn";
+import SignUpPage from "./pages/SignUp";
 import FindPwPage from "./pages/FindPw";
 import MyPage from "./pages/My";
 import AccountPage from "./pages/Account";
@@ -29,8 +30,9 @@ const router = createBrowserRouter([
       { path: "search", element: <SearchPage /> },
       { path: "search/result", element: <SearchResultPage /> },
       { path: "challenge", element: <ChallengePage /> },
-      { path: "auth", element: <AuthenticationPage /> },
-      { path: "auth/findpw", element: <FindPwPage /> },
+      { path: "signin", element: <SignInPage /> },
+      { path: "signin/findpw", element: <FindPwPage /> },
+      { path: "signup", element: <SignUpPage /> },
       {
         path: "mypage",
         element: <MyPage />,
